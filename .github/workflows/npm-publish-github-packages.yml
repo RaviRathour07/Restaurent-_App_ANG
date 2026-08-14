@@ -22,7 +22,9 @@ on:
           - citokd 
           - devokd 
 
-  push: main
+  push: 
+    branches: 
+      - main
 
 env:
   IMAGE_NAME: restaurent-app
