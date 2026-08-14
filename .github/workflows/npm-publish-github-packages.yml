@@ -22,6 +22,8 @@ on:
           - citokd 
           - devokd 
 
+  push: main
+
 env:
   IMAGE_NAME: restaurent-app
   IMAGE_TAG: Delivery001
