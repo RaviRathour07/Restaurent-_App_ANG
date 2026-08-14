@@ -53,4 +53,12 @@ jobs:
         run: | 
           node --version
           npm --version
+
+      - name: Install Dependencies 
+        run: | 
+          npm install --no-audit --no-fund 
+
+      - name: Build Angular Application
+        run: | 
+          npm run build -- --configuration production
   
