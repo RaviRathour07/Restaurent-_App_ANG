@@ -60,5 +60,7 @@ jobs:
 
       - name: Build Angular Application
         run: | 
+          pwd 
+          ls -ltr
           npm run build -- --configuration production
   
