@@ -62,6 +62,7 @@ jobs:
         run: | 
           pwd 
           ls -l 
+          ls -l node_modules/.bin
           ls -l node_modules/bin
           ls -l node_modules/bin/ng
           ls -l node_modules/.bin
